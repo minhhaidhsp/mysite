@@ -3,6 +3,6 @@
 set -o errexit
 
 bundle install
-./bin/rails generate dockerfile
 ./bin/rails assets:precompile
 ./bin/rails assets:clean
+./bin/rails generate dockerfile
