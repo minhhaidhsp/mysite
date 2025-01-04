@@ -20,7 +20,7 @@ gem "cssbundling-rails"
 gem "jbuilder"
 
 # bootstrap
-gem 'bootstrap', '~> 5.2', '>= 5.2.3'
+# gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
@@ -68,3 +68,5 @@ group :test do
 end
 
 gem "render_build_setup", "~> 0.0.1"
+
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
